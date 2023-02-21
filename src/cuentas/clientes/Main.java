@@ -11,7 +11,7 @@ public class Main {
         double saldoActual;
 
         cuenta1 = new Cuenta("Rafael Nadal Parera","1000-2365-85-1230456789",2500,0);
-        
+        System.out.println("Esta es la cuenta de Rafael Nadal Parera");
         System.out.println("El saldo actual es:"+ cuenta1.estado() );
 
         try {
